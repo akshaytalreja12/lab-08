@@ -39,14 +39,11 @@ int main() {
     printf("\nNormalized Movement Readings:\n");
     for ( i = 0; i < jt; i++) {
         for ( j = 0; j < movm; j++) {
-            printf("Joint %d, Movement %d ? X: %d, Y: %d, Z: %d\n",
-                   i + 1, j + 1,
-                   rds[i][j][0],
-                   rds[i][j][1],
-                   rds[i][j][2]);
+            printf("Joint %d, Movement %d ? X: %d, Y: %d, Z: %d\n", i + 1, j + 1, rds[i][j][0],  rds[i][j][1], rds[i][j][2]);
         }
     }
 
     return 0;
 }
+
 
